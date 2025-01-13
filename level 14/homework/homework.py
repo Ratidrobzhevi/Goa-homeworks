@@ -27,7 +27,13 @@ print (17 >= 17)
 
 print (6 <= 16837)
 
-# 3 ?
+# 3 
+
+name = input("Please enter your name: ") # Rati
+age = int(input("Please enter your age: ")) # 19
+height = float(input("Please enter your height(m): "))
+
+print(name == "Rati" and age > 18 and height > 1.8)
 
 # 4
 
